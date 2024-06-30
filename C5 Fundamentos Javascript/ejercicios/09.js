@@ -7,7 +7,8 @@ function esNuloOIndefinido(valor) {
   // undefined ---> true 
   // 22 ---> false
   // "texto" ---> false
-  // Tu código:
+  // Tu código: 
+  return valor === null || valor === undefined;
 }
 
 module.exports = esNuloOIndefinido;
